@@ -247,12 +247,12 @@ const handleVerify = useCallback(async () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 p-4 ">
-            <button className="bg-gray-900 hover:bg-gray-800 text-white rounded-xl py-6" onClick={handlePay}>
-              Depósito
+          <div className="w-full grid grid-cols-2 gap-4 p-4 mt-auto">
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 px-4 bg-gray-900 hover:bg-gray-800 text-white rounded-xl py-6" onClick={handlePay}>
+              Deposit
             </button>
-            <button className="bg-gray-100 hover:bg-gray-200 text-gray-900 border-0 rounded-xl py-6">
-              Retirar
+            <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border-input hover:text-accent-foreground h-10 px-4 bg-gray-100 hover:bg-gray-200 text-gray-900 border-0 rounded-xl py-6">
+              Withdraw
             </button>
           </div>
         </div>

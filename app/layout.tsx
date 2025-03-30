@@ -27,11 +27,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NextAuthProvider>
-          <ErudaProvider>
+          {/*<ErudaProvider> **/}
             <MiniKitProvider>
               {children}
             </MiniKitProvider>
-          </ErudaProvider>
+          {/*</ErudaProvider> **/}
         </NextAuthProvider>
       </body>
     </html>
